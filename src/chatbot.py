@@ -3,7 +3,6 @@ import torch
 from langchain_groq import ChatGroq
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
-# IMPORT BỘ BA TIN NHẮN CHUẨN CỦA LANGCHAIN
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 
 API_KEY = 'YOUR_API_KEY'
