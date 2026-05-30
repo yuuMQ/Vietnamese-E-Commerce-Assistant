@@ -1,3 +1,5 @@
 .idea
 __pycache__/
 API_KEY.txt
+../chroma_vectorstore/*
+!../chroma_vectorstore/.gitkeep
