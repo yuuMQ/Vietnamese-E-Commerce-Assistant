@@ -8,7 +8,7 @@ from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 API_KEY = 'YOUR_API_KEY'
 
 if __name__ == '__main__':
-    embedding_function = HuggingFaceEmbeddings(model_name='all-mpnet-base-v2')
+    embedding_function = HuggingFaceEmbeddings(model_name='keepitreal/vietnamese-sbert')
 
     vector_db = Chroma(
         persist_directory='../chroma_vectorstore',

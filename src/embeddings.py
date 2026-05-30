@@ -6,7 +6,7 @@ from langchain_core.documents import Document
 from langchain_huggingface import HuggingFaceEmbeddings
 import torch
 
-embedding_function = HuggingFaceEmbeddings(model_name='all-mpnet-base-v2')
+embedding_function = HuggingFaceEmbeddings(model_name='keepitreal/vietnamese-sbert')
 
 dataset = load_from_disk('../dataset')
 
