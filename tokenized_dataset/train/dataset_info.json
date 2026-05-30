@@ -1,0 +1,65 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "train",
+  "dataset_name": "vietnamese-ecommerce-multi-turn-chat",
+  "dataset_size": 5480320,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/5CD-AI/Vietnamese-Ecommerce-Multi-turn-Chat@7a5ca2e72f8622317cafed0861805c8199f04c33/ecommerce_multiturn.json": {
+      "num_bytes": 8783064,
+      "checksum": null
+    }
+  },
+  "download_size": 8783064,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "conversations": {
+      "feature": {
+        "from": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "value": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 14263384,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 5480320,
+      "num_examples": 1482,
+      "dataset_name": "vietnamese-ecommerce-multi-turn-chat"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
