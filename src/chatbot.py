@@ -5,8 +5,7 @@ from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 
-# API_KEY = 'YOUR_API_KEY'
-API_KEY = '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'
+API_KEY = 'YOUR_API_KEY'
 
 class ECommerceAssistant:
     def __init__(self):
